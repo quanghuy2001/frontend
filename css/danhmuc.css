@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "fontspa";
+  src: url(../fonts/UVNKieu_B.TTF);
+}
+.news {
+  position: relative;
+}
+.main-news {
+  background-image: url("../images/Rectangle\ 16.png");
+  padding: 35px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.main-news h1 {
+  color: #ffb628;
+  font-size: 18px;
+}
+.main-news p {
+  color: #fdfbfb;
+  font-size: 14px;
+}
+@media (max-width: 991px) {
+  .main-news p {
+    display: none;
+  }
+}
+/* tin tức mới nhất */
+.new-news {
+  margin-top: 40px;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+.news-content {
+  float: right;
+  width: 650px;
+}
+.news-content h6 {
+  font-size: 18px;
+  color: #7b0200;
+}
+.news-content .place {
+  font-style: italic;
+  justify-content: end;
+}
+.news-content span i,
+label {
+  color: #999;
+}
+/* Chủ đề mới nhất */
+.topic {
+  margin: 0px 5px;
+}
+.new-topic h6 {
+  font-size: 14px;
+  color: #fdfbfb;
+}
+.new-topic .new-topic-content {
+  color: #999;
+  font-size: 14px;
+}
+.page-link {
+  background-color: #660000;
+  color: #ffcc33;
+}
+.pagination {
+  margin-top: 40px;
+  text-align: center;
+}
+.page-lin:hover {
+  background-color: black;
+}
+.page-item {
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+}
+.resting {
+  color: #ffb628;
+}
+.tintuc {
+  font-family: "fontspa";
+  font-size: 50px;
+  color: #660000;
+  margin-top: 40px;
+}
