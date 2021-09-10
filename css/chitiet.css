@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "fontspa";
+  src: url(../fonts/UVNKieu_B.TTF);
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.text {
+  color: #660000;
+  margin-top: 10px;
+}
+p {
+  margin-top: 15px;
+}
+.like {
+  display: flex;
+  margin-top: 30px;
+}
+.fb-like {
+  margin-left: 15px;
+  margin-top: 4px;
+}
+.logo-zalo {
+  margin-left: 13px;
+  border-radius: 10px;
+}
+.newsss {
+  background-image: url("../images/img5.jpg");
+  background-size: cover;
+  padding-bottom: 30px;
+}
+.newsss .news_title {
+  font-size: 50px;
+  color: #7b0200;
+  margin-top: 60px;
+  font-family: "fontspa";
+}
+.newsss .news_content {
+  padding: 0px;
+  /* margin: 15px 15px 30px 15px; */
+  margin-top: 30px;
+}
+.newsss .news_content .card-title {
+  color: #7b0200;
+  font-weight: bold;
+  font-size: 14px;
+}
+.newsss .news_content .card-text {
+  font-size: 14px;
+  margin-top: 15px;
+}
+.newsss .text-center button {
+  width: 371px;
+  height: 50px;
+  background: none;
+  border: #5a0b0a solid 1.5px;
+  border-radius: 5px;
+  margin-top: 40px;
+  color: #000;
+}
+@media (max-width: 991px) {
+  .newsss .text-center button {
+    width: 180px;
+    height: 40px;
+    background: none;
+    border: #5a0b0a solid 1.5px;
+    border-radius: 5px;
+  }
+}
+svg {
+  stroke: #000;
+  stroke-width: 1;
+  position: relative;
+}
+hr {
+  color: #000;
+  /* width: 2px;  */
+  margin: -18px;
+}
+.text-black {
+  margin-top: 0px;
+}

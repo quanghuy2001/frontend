@@ -1,0 +1,238 @@
+@font-face {
+  font-family: "fontspa";
+  src: url(../fonts/UVNKieu_B.TTF);
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+/* spa uy tín*/
+/* menu */
+h1 {
+  font-family: "fontspa";
+  /* color: #ffcc33; */
+  margin-left: 20px;
+}
+.hr {
+  width: 95%;
+  margin-left: 33px;
+  margin-top: 1px;
+}
+div.content {
+  padding: 0;
+}
+div.container div h1 {
+  font-family: "fontspa";
+}
+.menu1 ul {
+  list-style: none;
+  /* text-align: center; */
+  /* margin-left: 20px; */
+}
+.menu1 ul li {
+  display: inline-block;
+  /* margin-left: 20px; */
+  margin-top: 23px;
+}
+.menu1 ul li a {
+  text-decoration: none;
+  color: #010101;
+  margin-left: 25px;
+  /* font-size: 14px; */
+  /* padding-left: 20px; */
+}
+.menu1 ul li a:hover {
+  background-color: #ebebeb;
+  border: 1px solid black;
+  padding: 6px;
+  /* font-weight: bold; */
+}
+/* card */
+.good_spa {
+  margin: 0;
+  padding: 0;
+}
+.card_content {
+  padding: 0px;
+  margin-bottom: 40px;
+  /* margin: 17px; */
+  background-color: #ebebeb;
+  transition: 0.5s;
+}
+.card_content:hover {
+  padding: 0px;
+  /* margin: 15px; */
+  background-color: #ccc;
+  transition: 0.5s;
+}
+.news_content .card-body {
+  padding: 10px;
+}
+.good_spa_title {
+  transition: 0.5s;
+}
+.good_spa_title:hover {
+  color: #7b0200;
+  transition: 0.5s;
+}
+.good_spa_image {
+  transition: 0.5s;
+}
+.good_spa_image:hover {
+  opacity: 0.6;
+  transition: 0.5s;
+}
+.card_content .card_content_title {
+  font-weight: bold;
+  font-size: 14px;
+}
+.card_content div .place {
+  font-size: 14px;
+  margin-top: 0;
+}
+.card_content div .card-text {
+  font-size: 14px;
+}
+/* tiêu biểu */
+.represent {
+  margin-top: 30px;
+  background-image: url("../images/Rectangle\ 16.png"),
+    url("../images/Layer\ 80.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 20px 150px; */
+}
+.represent .represent_title {
+  padding-top: 20px;
+  color: #ffb628;
+  font-size: 50px;
+}
+/* .represent .spatb {
+  margin-left: 20px;
+} */
+.represent_spa a {
+  color: white;
+}
+.represent_spa i {
+  color: rgb(184, 178, 178);
+}
+.represent_spa a:hover {
+  color: #ffb628;
+}
+.represent-image:hover {
+  opacity: 0.6;
+  transition: 0.5s;
+}
+.represent-image {
+  transition: 0.5s;
+}
+/* tin tức */
+.news {
+  background-image: url("../images/img5.jpg");
+  background-size: cover;
+  padding-bottom: 30px;
+}
+.news .news_title {
+  font-size: 50px;
+  color: #7b0200;
+  margin-top: 60px;
+}
+.news .news_content {
+  padding: 0px;
+  /* margin: 15px 15px 30px 15px; */
+  margin-top: 30px;
+}
+.news .news_content .card-title {
+  color: #7b0200;
+  font-weight: bold;
+  font-size: 14px;
+}
+.news .news_content .card-text {
+  font-size: 14px;
+  margin-top: 15px;
+}
+.news .text-center button {
+  width: 371px;
+  height: 50px;
+  background: none;
+  border: #5a0b0a solid 1.5px;
+  border-radius: 5px;
+  margin-top: 60px;
+  color: #000;
+}
+@media (max-width: 991px) {
+  .news .text-center button {
+    width: 180px;
+    height: 40px;
+    background: none;
+    border: #5a0b0a solid 1.5px;
+    border-radius: 5px;
+  }
+  .menu1 ul li a {
+    margin-left: 0;
+  }
+  .menu1 ul li {
+    margin-bottom: 5px;
+  }
+  .hr {
+    width: 88%;
+  }
+}
+/* @media (max-width: 1200px) {
+  .menu1 ul li a {
+    margin-left: 0;
+  }
+  .menu1 ul li {
+    margin-bottom: 5px;
+    margin-left: 0;
+  }
+  .hr {
+    width: 95%;
+  }
+} */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .menu1 ul li a {
+    margin-left: 0;
+  }
+  .menu1 ul li {
+    margin-bottom: 5px;
+    margin-left: 0;
+  }
+  .hr {
+    width: 95%;
+  }
+  .spatb {
+    margin-left: 100px;
+  }
+  .card_content div .place {
+    font-size: 8px;
+    margin-top: 0;
+  }
+}
+@media (max-width: 480px) {
+  .finds {
+    margin-top: 0px;
+  }
+  .logo_image {
+    width: 100px;
+    height: 80px;
+    padding-top: 20px;
+    margin: 10px 0px;
+  }
+  .content h1 {
+    font-size: 40px;
+  }
+}
+svg {
+  stroke: #000;
+  stroke-width: 1;
+  position: relative;
+}
+hr {
+  color: #000;
+  /* width: 2px;  */
+  margin: -18px;
+}
+.imgqc {
+  margin-top: 25px;
+}
